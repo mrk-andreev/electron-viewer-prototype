@@ -1,3 +1,5 @@
+!dist/.gitkeep
+dist/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,intellij+all,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,intellij+all,node
