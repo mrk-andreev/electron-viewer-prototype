@@ -1,5 +1,6 @@
 const {app, BrowserWindow} = require('electron');
 const path = require('path');
+const DOMAIN = '<ENTER YOUR DOMAIN>';
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
@@ -12,7 +13,7 @@ function createWindow() {
         kiosk: true,
         alwaysOnTop: true,
     })
-    mainWindow.loadURL('https://dev.az.conundrum.ai/')
+    mainWindow.loadURL(DOMAIN)
         .then(() => {
             mainWindow.webContents.openDevTools({
                 mode: 'undocked',
