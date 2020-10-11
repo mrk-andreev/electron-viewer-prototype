@@ -1,0 +1,22 @@
+{
+  "name": "ui-monitoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrk-andreev/ui-monitoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrk-andreev/ui-monitoring/issues"
+  },
+  "homepage": "https://github.com/mrk-andreev/ui-monitoring#readme",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
